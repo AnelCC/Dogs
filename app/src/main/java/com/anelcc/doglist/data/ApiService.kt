@@ -6,7 +6,5 @@ import retrofit2.http.Url
 
 interface ApiService {
     @GET
-    fun getDosByBreeds(@Url url: String): Response<Dogs> {
-
-    }
+    suspend fun getDosByBreeds(@Url url: String): Response<Dogs>
 }
