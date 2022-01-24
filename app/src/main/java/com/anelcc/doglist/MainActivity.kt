@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var dogListAdapter: DogListAdapter
@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.searchViewDog.setOnQueryTextListener(this)
         showList()
     }
 
@@ -63,4 +64,14 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Sorry! Something went wrong $errorMessage", Toast.LENGTH_LONG).show()
     }
 
+    override fun onQueryTextSubmit(p0: String?): Boolean {
+        if (!p0.isNullOrEmpty()){
+            searchData(p0.lowercase())
+        }
+        return true
+    }
+
+    override fun onQueryTextChange(p0: String?): Boolean {
+        return true
+    }
 }
