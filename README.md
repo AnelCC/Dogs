@@ -17,7 +17,7 @@ com.anelcc.puppies      # Root Package
 
 <a href="https://github.com/AnelCC/FoodRecipe/raw/main/images/recipe.apk"><img src="https://locations.massageenvy.com/images/google-play-badge.png" width="200"/></a>
 
-<img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/Screenshot01732.jpg?token=GHSAT0AAAAAACBPOSYQ6WGRQ2FI7AFYXREOZB5TZIQ" width="180" height="300"/> <img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/Screenshot01740.jpg?token=GHSAT0AAAAAACBPOSYQARDY7TO34VKGUTWEZB5TZRQ" width="180" height="300"/>
+<img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/1.%20Pitbull.png" width="180" height="300"/> <img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/2.%20Labrador.png" width="180" height="300"/><img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/3.%20Boxer.png" width="180" height="300"/> <img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/4.%20Akita.jpg" width="180" height="300"/> <img src="https://raw.githubusercontent.com/AnelCC/Dogs/main/images/5.%20Akita.jpg" width="180" height="300"/>
 
 ### Library References
 
